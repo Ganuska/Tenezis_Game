@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,9,121,0.7987570028011204) 35%, rgba(0,212,255,1) 100%);
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.container {
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border-radius: 16px;
+}
+
+p {
+  color: grey;
+  font-size: 13px;
+  margin: 30px;
+}
+
+.btn {
+  background-color: indigo;
+  width: 80px;
+  height: 37px;
+  color: aliceblue;
+  border-radius: 8px;
+  margin-top: 30px;
+  cursor: pointer;
+position: relative;
+  top: 20px;
+}
+
+.numberContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+position: relative;
+  top: 20px;
+}
+
+.number {
+  border: 1px solid rgba(185, 183, 183, 0.2);
+  display: flex;
+  width: 37px;
+  height: 37px;
+  box-shadow: 0px 2px rgb(44, 44, 73, 0.2);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.stop{
+ background-color: seagreen;
+  border: 1px solid rgba(185, 183, 183, 0.2);
+  display: flex;
+  width: 37px;
+  height: 37px;
+  box-shadow: 0px 2px rgb(44, 44, 73, 0.2);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+
+.congrat{
+    margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  background-clip: text;
+  color: transparent;
+}
